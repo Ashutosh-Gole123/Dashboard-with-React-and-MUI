@@ -1,0 +1,17 @@
+.marqueeContainer {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    animation: marquee 20s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}

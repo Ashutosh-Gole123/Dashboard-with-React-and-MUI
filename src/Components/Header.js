@@ -79,7 +79,6 @@ export default function Header() {
   return (
     <>
       <Box
-        className="header"
         sx={{
           display: "flex",
           backgroundColor: "#54c416",
@@ -105,6 +104,10 @@ export default function Header() {
               image={logo2}
               sx={{
                 width: "100px",
+                "@media (max-width: 600px)": {
+                  width: "60px",
+                  height: "60px",
+                },
               }}
               style={{
                 objectFit: "contain",
@@ -113,6 +116,7 @@ export default function Header() {
               alt="green iguana"
             />
             <Box
+              className="header"
               sx={{
                 margin: "10px",
                 padding: "10px",
@@ -121,7 +125,7 @@ export default function Header() {
               <Typography
                 gutterBottom
                 variant="h5"
-                component="div"
+                component="h5"
                 sx={{ color: "#f5f5f5" }}
               >
                 MULTI-STATE CO-OPERATIVE SOCIETIES

@@ -21,6 +21,12 @@ function Charts() {
             marginTop: theme.spacing(2),
 
             bgcolor: "#1A2027",
+            "@media (max-width: 600px)": {
+              height: "50vh",
+            },
+            "@media (max-width:1350px)": {
+              height: "60vh",
+            },
           }}
         >
           <Paper
@@ -73,7 +79,7 @@ function Charts() {
             }}
             keys={["No_of_reg"]}
             indexBy="state"
-            margin={{ top: 50, right: 130, bottom: 100, left: 60 }}
+            margin={{ top: 20, right: 40, bottom: 150, left: 60 }}
             padding={0.3}
             groupMode="grouped"
             valueScale={{ type: "linear" }}
@@ -103,30 +109,6 @@ function Charts() {
             }}
             labelSkipWidth={12}
             labelSkipHeight={12}
-            legends={[
-              {
-                dataFrom: "keys",
-                anchor: "bottom-right",
-                direction: "column",
-                justify: false,
-                translateX: 120,
-                translateY: 0,
-                itemsSpacing: 2,
-                itemWidth: 100,
-                itemHeight: 20,
-                itemDirection: "left-to-right",
-                itemOpacity: 0.85,
-                symbolSize: 20,
-                effects: [
-                  {
-                    on: "hover",
-                    style: {
-                      itemOpacity: 1,
-                    },
-                  },
-                ],
-              },
-            ]}
             role="application"
             ariaLabel="Nivo bar chart demo"
             barAriaLabel={(e) =>
@@ -144,6 +126,12 @@ function Charts() {
             marginTop: theme.spacing(2),
 
             bgcolor: "#1A2027",
+            "@media (max-width: 600px)": {
+              height: "50vh",
+            },
+            "@media (max-width:1350px)": {
+              height: "60vh",
+            },
           }}
         >
           <Paper
@@ -196,7 +184,7 @@ function Charts() {
             }}
             keys={["No_of_reg"]}
             indexBy="state"
-            margin={{ top: 50, right: 130, bottom: 100, left: 60 }}
+            margin={{ top: 20, right: 40, bottom: 150, left: 60 }}
             padding={0.3}
             groupMode="grouped"
             valueScale={{ type: "linear" }}
@@ -226,30 +214,6 @@ function Charts() {
             }}
             labelSkipWidth={12}
             labelSkipHeight={12}
-            legends={[
-              {
-                dataFrom: "keys",
-                anchor: "bottom-right",
-                direction: "column",
-                justify: false,
-                translateX: 120,
-                translateY: 0,
-                itemsSpacing: 2,
-                itemWidth: 100,
-                itemHeight: 20,
-                itemDirection: "left-to-right",
-                itemOpacity: 0.85,
-                symbolSize: 20,
-                effects: [
-                  {
-                    on: "hover",
-                    style: {
-                      itemOpacity: 1,
-                    },
-                  },
-                ],
-              },
-            ]}
             role="application"
             ariaLabel="Nivo bar chart demo"
             barAriaLabel={(e) =>
@@ -267,6 +231,9 @@ function Charts() {
             marginTop: theme.spacing(2),
             padding: theme.spacing(5),
             bgcolor: "#1A2027",
+            "@media (max-width: 600px)": {
+              height: "40vh",
+            },
           }}
         >
           <Paper

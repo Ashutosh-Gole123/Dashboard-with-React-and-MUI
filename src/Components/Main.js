@@ -29,19 +29,20 @@ function Main() {
         className="main"
         sx={{
           flexGrow: 1,
+          margin: theme.spacing(2),
         }}
       >
         <Grid container spacing={2} sx={{ marginTop: theme.spacing(15) }}>
           <Grid item xs={12} md={8} xl={8}>
             <Item className="list">
               <Box>
-                <Typography variant="h4" component="h2" sx={{ padding: "5px" }}>
+                <Typography variant="h4" component="h4" sx={{ padding: "5px" }}>
                   Multi State Cooperative Societies ACT, 2002{" "}
                 </Typography>
                 <Divider />
                 <Typography
                   variant="h6"
-                  component="h2"
+                  component="h5"
                   sx={{ textAlign: "left", padding: "8px" }}
                 >
                   An Act to consolidate and amend the law relating to
@@ -62,51 +63,15 @@ function Main() {
                 </Typography>
               </Box>
             </Item>
-          </Grid>
-          <Grid item xs={12} md={4} xl={4}>
-            <Item className="list">
-              {" "}
-              <Box>
-                <Typography variant="h4" component="h2" sx={{ padding: "5px" }}>
-                  Latest Hearings{" "}
-                </Typography>
-                <Divider />
-                <ListItemButton component="a" href="#simple-list">
-                  <ListItemText primary="Shree Ninaidevi Multi Specialty Cooperative Hospital and Research Center Ltd.,MAHARASHTRA" />
-                </ListItemButton>
-                <Divider />
-                <ListItemButton component="a" href="#simple-list">
-                  <ListItemText primary="Global Federation of Natural Farming Cooperative Ltd.,UTTAR PRADESH" />
-                </ListItemButton>
-                <Divider />
-                <ListItemButton component="a" href="#simple-list">
-                  <ListItemText primary="Tamil Nadu Multi State Societies Cooperative Housing Federation Ltd.,TAMIL NADU" />
-                </ListItemButton>
-                <Divider />
-                <Box sx={{ textAlign: "right" }}>
-                  <Button
-                    variant="outlined"
-                    color="success"
-                    sx={{
-                      padding: ".6rem",
-                      margin: ".3rem",
-                    }}
-                  >
-                    Read More
-                  </Button>{" "}
-                </Box>
-              </Box>
-            </Item>
-          </Grid>
-          <Grid item xs={12} md={8} xl={8}>
             <Item
               className="list"
               sx={{
                 overflow: "hidden",
+                marginTop: "1rem",
               }}
             >
               {" "}
-              <Typography variant="h4" component="h2">
+              <Typography variant="h4" ccomponent="h4">
                 News/Events{" "}
               </Typography>
               <Box sx={{ overflow: "hidden" }}>
@@ -180,7 +145,45 @@ function Main() {
             <Item className="list">
               {" "}
               <Box>
-                <Typography variant="h4" component="h2" sx={{ padding: "5px" }}>
+                <Typography variant="h4" component="h4" sx={{ padding: "5px" }}>
+                  Latest Hearings{" "}
+                </Typography>
+                <Divider />
+                <ListItemButton component="a" href="#simple-list">
+                  <ListItemText primary="Shree Ninaidevi Multi Specialty Cooperative Hospital and Research Center Ltd.,MAHARASHTRA" />
+                </ListItemButton>
+                <Divider />
+                <ListItemButton component="a" href="#simple-list">
+                  <ListItemText primary="Global Federation of Natural Farming Cooperative Ltd.,UTTAR PRADESH" />
+                </ListItemButton>
+                <Divider />
+                <ListItemButton component="a" href="#simple-list">
+                  <ListItemText primary="Tamil Nadu Multi State Societies Cooperative Housing Federation Ltd.,TAMIL NADU" />
+                </ListItemButton>
+                <Divider />
+                <Box sx={{ textAlign: "right" }}>
+                  <Button
+                    variant="outlined"
+                    color="success"
+                    sx={{
+                      padding: ".6rem",
+                      margin: ".3rem",
+                    }}
+                  >
+                    Read More
+                  </Button>{" "}
+                </Box>
+              </Box>
+            </Item>
+            <Item
+              className="list"
+              sx={{
+                marginTop: "1rem",
+              }}
+            >
+              {" "}
+              <Box>
+                <Typography variant="h4" component="h4" sx={{ padding: "5px" }}>
                   Latest Certificates{" "}
                 </Typography>
                 <Divider />
@@ -218,7 +221,7 @@ function Main() {
             >
               {" "}
               <Box>
-                <Typography variant="h4" component="h2" sx={{ padding: "5px" }}>
+                <Typography variant="h4" component="h4" sx={{ padding: "5px" }}>
                   Latest Order Sheet
                 </Typography>
                 <Divider />
@@ -249,6 +252,7 @@ function Main() {
               </Box>
             </Item>
           </Grid>
+          <Grid item xs={12} md={4} xl={4}></Grid>
         </Grid>
       </Box>
     </>

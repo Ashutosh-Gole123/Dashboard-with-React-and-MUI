@@ -22,7 +22,7 @@ function Footer() {
         }}
       >
         <Grid container spacing={2}>
-          <Grid item xs={12} md={6} xl={3} sx={{}}>
+          <Grid item xs={12} md={3} xl={3} sx={{}}>
             <Link
               style={{
                 color: "white",
@@ -44,7 +44,7 @@ function Footer() {
               </ListItemButton>
             </Link>
           </Grid>
-          <Grid item xs={12} md={6} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <Link style={{ color: "white", textDecoration: "none" }}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary="Hearing Order Sheet " />
@@ -61,7 +61,7 @@ function Footer() {
               </ListItemButton>
             </Link>
           </Grid>
-          <Grid item xs={12} md={6} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <Link style={{ color: "white", textDecoration: "none" }}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary="Amendment (Bye Laws)" />
@@ -78,7 +78,7 @@ function Footer() {
               </ListItemButton>
             </Link>
           </Grid>
-          <Grid item xs={12} md={6} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <Link style={{ color: "white", textDecoration: "none" }}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary="Feedback " />
@@ -97,14 +97,14 @@ function Footer() {
           </Grid>
         </Grid>
         <Grid container>
-          <Grid item xs={12} md={6} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <Link style={{ color: "white", textDecoration: "none" }}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary="Contact Us " />
               </ListItemButton>
             </Link>
           </Grid>
-          <Grid item xs={12} md={6} xl={3}>
+          <Grid item xs={12} md={3} xl={3}>
             <Link style={{ color: "white", textDecoration: "none" }}>
               <ListItemButton sx={{ textAlign: "center" }}>
                 <ListItemText primary=" Grievance  " />

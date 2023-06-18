@@ -29,7 +29,6 @@ const listdata = [
     id: 3,
     primaryText: "Reg Societies",
     icon: <HowToRegIcon />,
-    link: "",
     nestedItems: [
       {
         id: 1,
@@ -41,13 +40,13 @@ const listdata = [
         id: 2,
         primaryText: "All reg. Socities(PDF)",
         icon: <StarBorder />,
-        link: "/noLink",
+        link: "/error",
       },
       {
         id: 3,
         primaryText: "Socities Registered before 1986",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       {
         id: 4,
@@ -59,7 +58,7 @@ const listdata = [
         id: 5,
         primaryText: "Financial Year-wise List",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -73,13 +72,13 @@ const listdata = [
         id: 1,
         primaryText: "Form I",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       {
         id: 2,
         primaryText: "Form II",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -93,13 +92,13 @@ const listdata = [
         id: 1,
         primaryText: "MSCS Act 2002",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       {
         id: 2,
         primaryText: "MSCS Rule 2002",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -113,13 +112,13 @@ const listdata = [
         id: 1,
         primaryText: "Received Application",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       {
         id: 2,
         primaryText: "Status of Application",
         icon: <StarBorder />,
-        link: "/noLnk",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -133,19 +132,19 @@ const listdata = [
         id: 1,
         primaryText: "New User Registration",
         icon: <StarBorder />,
-        link: "/",
+        link: "/error",
       },
       {
         id: 2,
         primaryText: "User Login",
         icon: <StarBorder />,
-        link: "/",
+        link: "/login",
       },
       {
         id: 2,
         primaryText: "Admin User",
         icon: <StarBorder />,
-        link: "/",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -159,13 +158,13 @@ const listdata = [
         id: 1,
         primaryText: "All Registered Societies",
         icon: <StarBorder />,
-        link: "/noLink",
+        link: "/error",
       },
       {
         id: 2,
         primaryText: "Registered Users",
         icon: <StarBorder />,
-        link: "/noLink",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -179,13 +178,13 @@ const listdata = [
         id: 1,
         primaryText: "Socities under liquidation",
         icon: <StarBorder />,
-        link: "/noLink",
+        link: "/error",
       },
       {
         id: 2,
         primaryText: "Liquidation process Initiated",
         icon: <StarBorder />,
-        link: "/noLink",
+        link: "/error",
       },
       // Add more nested items as needed
     ],
@@ -194,7 +193,7 @@ const listdata = [
     id: 10,
     primaryText: "Bank",
     icon: <AccountBalanceIcon />,
-    link: "/bank",
+    link: "/error",
 
     nestedItems: [],
   },

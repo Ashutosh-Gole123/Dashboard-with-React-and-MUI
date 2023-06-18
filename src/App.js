@@ -5,6 +5,8 @@ import { Route, Routes } from "react-router-dom";
 import ListOne from "./Pages/ListOne";
 import Chart from "./Pages/Chart";
 import SectorList from "./Pages/SectorList";
+import LoginPage from "./Pages/LoginPage";
+import Err from "./Pages/Err";
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
@@ -20,6 +22,8 @@ function App() {
           <Route path="chart" element={<Chart />} />
           <Route path="list1" element={<ListOne />} />
           <Route path="list2" element={<SectorList />} />
+          <Route path="login" element={<LoginPage />} />
+          <Route path="error" element={<Err />} />
         </Routes>
       </ThemeProvider>
     </>
